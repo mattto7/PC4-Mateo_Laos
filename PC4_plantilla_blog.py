@@ -60,7 +60,7 @@ col1, col2 = st.columns(2)
 # Las columnas creadas se asignan a las variables col1 y col2.
 
 # En la primera columna colocamos la imagen
-col1.image("foto.png", caption='Aquí puedes escribir una tiqueta debajo de la imagen', width=300)
+col1.image("foto.png", caption='tocando con mi banda', width=300)
 
 # col1.image("ellie.png", caption='Ellie', width=300): Esta línea está colocando una imagen en la primera columna (col1). 
 # La función image toma como primer argumento la ruta de la imagen que se va a mostrar. 
@@ -128,7 +128,7 @@ st.markdown(f"<div style='text-align: justify; font-size: 15px;'>{texto_2}</div>
 
 # Ahora agregamos un video a mi blog donde explico algún tema de las clases
 # Agregamos un subtítulo
-st.markdown("<h2 style='text-align: center,'>Un poco más obre mí 📚</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center,'>Un poco más sobre mí 📚</h2>", unsafe_allow_html=True)
 # <h2 style='text-align: center;'>Explicación de un tema de las clases 📚</h2>: Esta es una cadena de código HTML
 # La etiqueta <h2> se utiliza para el encabezado secundario de una página web.
 # El texto está centrado (text-align: center;).
